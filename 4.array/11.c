@@ -5,7 +5,7 @@
 int main() {
     char line[1000];
     
-    printf("Вводите строки (пустая строка — выход):\n");
+    printf("Вводите строки: \n");
     while (1) {
         printf("> ");
         if (!fgets(line, 1000, stdin)) break;
